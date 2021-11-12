@@ -1,0 +1,51 @@
+.transaction-details {
+  margin-top: 40px;
+  font-size: 14px;
+
+  &__card {
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+
+  &__status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h6 {
+      font-weight: 600;
+    }
+  }
+
+  &__detail {
+    display: flex;
+  }
+
+  &__icon {
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+  }
+
+  &__detail-items {
+    margin-bottom: 16px;
+
+    p {
+      line-height: 1.6;
+    }
+
+    h4 {
+      line-height: 1.6;
+    }
+  }
+
+  &__back-button {
+    border: 1px solid #fd6542;
+    color: #fd6542;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 12px;
+  }
+}

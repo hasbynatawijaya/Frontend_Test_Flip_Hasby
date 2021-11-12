@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const requestInterceptor = () => {
   axios.interceptors.request.use((config) => {
-    config.baseURL = "https://cors-anywhere.herokuapp.com/http://omdbapi.com/https://nextar.flip.id/";
+    config.baseURL = "https://cors-anywhere.herokuapp.com/https://nextar.flip.id/";
     return config;
   });
 };

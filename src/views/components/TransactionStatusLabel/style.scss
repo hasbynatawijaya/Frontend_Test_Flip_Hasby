@@ -1,0 +1,16 @@
+.transaction-status-label {
+  width: fit-content;
+  padding: 4px;
+  font-size: 12px;
+  border-radius: 4px;
+
+  &--success {
+    color: #fff;
+    background-color: #56b586;
+  }
+
+  &--pending {
+    color: #000;
+    border: 1px solid #fd6542;
+  }
+}

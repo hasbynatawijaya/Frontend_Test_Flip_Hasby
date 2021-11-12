@@ -1,0 +1,17 @@
+.transactions {
+  margin-top: 40px;
+  padding: 0 12px;
+
+  &__total-amount {
+    color: #fd6542;
+    font-weight: 600;
+  }
+
+  &__content {
+    margin-top: 20px;
+  }
+
+  &__list {
+    margin-top: 20px;
+  }
+}

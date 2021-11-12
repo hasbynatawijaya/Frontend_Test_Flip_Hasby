@@ -11,14 +11,12 @@ const routes = [
         element: <TransactionsPage />,
       },
       {
-        path: "transactions",
+        path: "/transactions",
         element: <TransactionsPage />,
-        children: [
-          {
-            path: ":transactionId",
-            element: <TransactionDetailsPage />,
-          },
-        ],
+      },
+      {
+        path: "/transactions/:transactionId",
+        element: <TransactionDetailsPage />,
       },
     ],
   },

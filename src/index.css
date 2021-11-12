@@ -8,3 +8,8 @@ body {
   font-family: "Lato", sans-serif;
   background-color: #f3f7f9;
 }
+
+.text-link {
+  color: inherit;
+  text-decoration: inherit;
+}
